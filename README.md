@@ -1,7 +1,6 @@
 # Intel Scene CNN (4 classes)
 
-This project trains a Convolutional Neural Network (CNN) in TensorFlow/Keras to classify images into 4 classes:
-**buildings, forest, glacier, mountain**.
+This project trains a Convolutional Neural Network (CNN) in TensorFlow/Keras to classify images into 4 classes (buildings, forest, glacier, mountain). The notebook covers the full workflow: data preprocessing with ImageDataGenerator, model training and metric visualization (accuracy/loss), testing on individual images with the predicted label written directly onto the image (OpenCV), and evaluation on the test set using evaluate(), accuracy_score, a confusion matrix, and a classification report. It also includes saving and reloading the trained model (JSON + weights) and preparing multiple network versions to compare performance. This repository is still a work in progress and is being actively updated, so it does not represent the final version of the project yet.
 
 ## What is included
 - Data preprocessing with ImageDataGenerator
